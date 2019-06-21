@@ -65,7 +65,7 @@ namespace DouyuBarrage2
             Socket clientSocket;
             IPAddress ip = IPAddress.Parse(strip);
             clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            string roomid = "3567314";//"288016";
+            string roomid = "3567314";//"288016";//test
             try
             {
                 clientSocket.ReceiveTimeout = 1000000;
